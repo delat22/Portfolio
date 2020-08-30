@@ -1,0 +1,192 @@
+
+/**************
+    GENERAL
+***************/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    width: 100vw;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+#wrapper{
+    /**
+    background-image: url('../images/background-top.svg');
+    background-repeat: no-repeat;
+    background-size: 0.5fr 0.5fr;
+    background-position-x: center;
+    ***/
+    background-color:#0E0C38;
+    
+}
+
+.row{
+    margin:0 2rem;
+}
+
+img{
+    max-width: 100%;
+   
+}
+
+/**************
+    HEADER
+***************/
+header{
+    
+    
+}
+
+/**************
+    NAVIGATION
+***************/
+nav{
+    padding: 1em;
+    text-align: end;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 1em;
+    color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+li{
+   display: inline-block;  
+}
+/**************
+    Container-1
+***************/
+.container-1{
+    display: flex;  
+    flex-direction: row;
+}
+
+.left{
+    width: 100%;
+    color: #FFFFFF;
+    margin-top: 3em;
+    font-size: 1.5em;
+}
+
+.right{
+    
+}
+
+.right > img{
+   
+}
+.name {
+    font-size: 5em;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+p > span {
+    color: #FF0513;
+}
+
+button{
+    width: 10em;
+    margin: 2em 0;
+    padding: 1em;
+    outline: unset;
+    color: #FFFFFF;
+    background-color: #FF0513;
+    border: 1px solid #FF0513;
+    border-radius: 3em;
+}
+
+#button-2{
+    margin-left: 1em;
+    background-color: #0E0C38;
+    border: 1px solid #fff;
+
+}
+
+/**************
+    Container-2
+***************/
+.container-2{
+    color: #FFFFFF;
+}
+
+#skill{
+    text-align: center;
+    margin-top: 2em;
+    font-size: 2em;
+}
+
+.skill-icon{
+    display: flex;
+}
+
+
+
+
+
+
+
+/**************
+    Container-3
+***************/
+
+.container-3{
+    color: #FFFFFF;
+}
+
+#project{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+.project-card {
+    display: flex;
+    margin-top: 2em;
+}
+
+.card{
+    border: 1px solid #0E0C38;
+    background-color: #0E0C38;
+    box-shadow: 0px 0px 20px black;
+    margin: 0 1.5em;
+    
+}
+
+.card-content{
+    margin: 2em;
+}
+
+.project-topic{
+    font-size: 1.5em;
+    margin: 1em 0;
+}
+
+.project-summary{
+    
+}
+
+.tools{
+    margin-top: 1em;
+}
+
+/**************
+
+***************/
